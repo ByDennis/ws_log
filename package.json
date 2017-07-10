@@ -1,0 +1,21 @@
+{
+  "name": "ws_log",
+  "version": "1.0.0",
+  "description": "log for ws",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "yarn run babel && node ./build/index.js",
+    "babel": "babel src -d build"
+  },
+  "author": "benye",
+  "license": "ISC",
+  "dependencies": {
+    "websocket": "1.0.24"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
