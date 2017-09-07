@@ -3,3 +3,4 @@ build
 npm-debug.log
 yarn.lock
 src/ws_log.conf.js
+ws_log.txt
